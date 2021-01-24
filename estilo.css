@@ -1,0 +1,177 @@
+/*limpar formatações padrões*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+
+}
+#area-cabecalho{
+	background-color: #f7b600;
+	padding:15px;
+	text-align: center;
+}
+#area-logo, #area-menu {
+	padding: 30px;
+}
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2{
+	color: #f7b600;
+}
+.branco{
+	color:white;
+}
+
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+#area-postagens{
+	width: 660px;
+	float: left;
+
+}
+#area-lateral{
+	width: 240px;
+	float: right;
+	text-align: center;
+	
+	
+}
+#area-postagens{
+	
+}
+#area-lateral{
+	background:;
+}
+#rodape{
+	background:#CCC;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+}
+.postagens{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: : 5px;
+	margin-bottom: 5px;
+	display: block;
+}
+
+/*a {
+	text-decoration: none;
+}
+
+ a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}*/
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+h2{
+	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #f7b600;
+	padding: 5px;
+}
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+
+}
+.postagem-lateral{
+text-align: justify;
+font-size: 0.8em;
+padding: 5px;
+border-bottom: 2px;
+
+}
+hr{
+	color: orange;
+}
+
+p{
+	text-align: justify;
+
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	padding-left: 20px;
+	text-align: left center;
+	
+}
+.alinhamento{
+	text-align: left;
+
+}
+ul a{
+	width: 200px;
+	height: 40px;
+	display: block;
+	background: url(../imagens/menu.png) no-repeat left bottom;
+    color: #000;
+	text-decoration: none;
+	text-indent:40px;
+	line-height: 40px;
+
+}
+
+}
+a:link{
+	color:#000;
+}
+
+a:visited{
+	color: #000
+}
+a:hover {
+	background-position: right bottom;
+	background-color:#F99200;
+	color:#FFF;
+}
+#home .home a,
+#jogos .jogos a,
+#celulares .celulares a,
+#informatica .informatica a,
+#eletronicos .eletronicos a {
+	background-position: right bottom;
+	background-color:#F99200;
+	color:#FFF;
+}
